@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Gallery</title>
+
+<style>
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2px;
+    padding: 2px;
+    background-color: black;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <img src="download (22).jpg" alt="">
+    <img src="download (23).jpg" alt="">
+    <img src="download (24).jpg" alt="">
+    <img src="download (25).jpg" alt="">
+    <img src="download (26).jpg" alt="">
+    <img src="download (27).jpg" alt="">
+</div>
+
+</body>
+</html>

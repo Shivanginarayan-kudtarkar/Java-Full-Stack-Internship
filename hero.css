@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}

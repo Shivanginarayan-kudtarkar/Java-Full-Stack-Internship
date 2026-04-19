@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+button {
+    width: 100%;
+    margin: 5px 0;
+}
+
+#output {
+    background: #eee;
+    padding: 10px;
+    margin-top: 10px;
+}

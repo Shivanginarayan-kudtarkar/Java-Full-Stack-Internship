@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+#output {
+    background: #eee;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+}
